@@ -9,7 +9,7 @@ html,body{
 .wrapper{
     height: 100%;
     width: 100%;
-    /* background-color: crimson; */
+    background-color: rgb(232, 223, 225);
 }
 
 .navigation{
@@ -17,11 +17,11 @@ html,body{
     width: 100%;
     /* background-color: crimson; */
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
 }
 .first{
     height: 100%;
@@ -34,6 +34,7 @@ html,body{
 .mid{
     height: 100%;
     width: 60%;
+    color: black;
     /* background-color:red; */
     display: flex;
     justify-content:space-around;
@@ -41,21 +42,23 @@ html,body{
 }
 .mid a{
     text-decoration: none;
-    color: gray;
+    /* color: gray; */
+     color: black;
 }
 .third{
     height: 100%;
     width: 20%;
     /* background-color: aqua; */
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .third button{
-    background-color: black;
+    background-color: rgb(245, 236, 236);
     border-radius: 50px;
     padding: 10px 30px;
-    color: gray;
+    color:black;
 
 }
 .cantent{
@@ -93,18 +96,52 @@ html,body{
 .left{
     height: 50%;
     width: 20%;
-    background-color:crimson;
+    background-color:#eee6e6;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left button{
+    font-size: 10px;
+    font-weight: 200;
+    border-radius: 10px;
+    padding: 5px 20px;
+
+}
+.left h1{
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 50px;
+    /* padding: 5px 20px; */
+
 }
 .secound{
     height: 80%;
     width: 30%;
-    background-color:aqua;
+    background-color:rgb(244, 238, 238);
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.secound img {
+    border-radius: 50px;
 }
 .right{
     height: 70%;
     width: 20%;
-    background-color:red;
-    border-radius: 20px;
+      background-color:#eee6e6;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.right img {
+     background-color:red;
+    border-radius: 50px;
+
+}
+
