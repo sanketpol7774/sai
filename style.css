@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+.navigation{
+    height: 100px;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid black;
+}
+.first{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mid{
+    height: 100%;
+    width: 60%;
+    /* background-color:red; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.mid a{
+    text-decoration: none;
+    color: gray;
+}
+.third{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third button{
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: gray;
+
+}
+.cantent{
+    height: 30%;
+    width: 100%;
+    /* margin-top: 100px; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cantent h1{
+    font-size: 70px;
+    font-weight: 600;
+    
+}
+.cantent p{
+    font-size: 15px;
+    /* font-weight: 100; */
+}
+
+.cards {
+    height: 60%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    /* align-items: center; */
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.left{
+    height: 50%;
+    width: 20%;
+    background-color:crimson;
+    border-radius: 20px;
+}
+.secound{
+    height: 80%;
+    width: 30%;
+    background-color:aqua;
+    border-radius: 20px;
+}
+.right{
+    height: 70%;
+    width: 20%;
+    background-color:red;
+    border-radius: 20px;
+}
